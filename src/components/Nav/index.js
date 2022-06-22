@@ -17,14 +17,20 @@ function Nav() {
                 About me
                 </a>
             </li>
-            <li>
-                <span>Contact</span>
+            <li className="mx-2">
+                <a href="#contact">
+                Contact
+                </a>
             </li>
-            <li>
-                <span>Portfolio</span>
+            <li className="mx-2">
+                <a href="#portfolio">
+                Portfolio
+                </a>
             </li>
-            <li>
-                <span>Resume</span>
+            <li className="mx-2">
+                <a href="#resume">
+                Resume
+                </a>
             </li>
             </ul>
         </nav>
