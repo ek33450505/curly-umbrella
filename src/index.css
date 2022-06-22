@@ -27,6 +27,11 @@ body {
   min-height: 100%;
 }
 
+.cover {
+  height: 100px;
+  width: 100px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -122,6 +127,7 @@ button[disabled] {
 
 img {
   max-width: 100%;
+  object-position: center;
 }
 
 span[role="img"] {
@@ -292,4 +298,18 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 70%;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
 }
