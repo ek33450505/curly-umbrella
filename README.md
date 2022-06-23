@@ -14,7 +14,7 @@ Please view the deployed application to see my professional portfolio using Reac
 
   ## Installation: 
 
-  This application is deployed at: 
+  This application is deployed at: https://ek33450505.github.io/curly-umbrella/
  
   ## Visualization:
 
