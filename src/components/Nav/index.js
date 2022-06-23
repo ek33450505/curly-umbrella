@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "../../assets/images/Edward_Kubiak_Resume.pdf";
 
 
 function Nav() {
@@ -28,7 +29,7 @@ function Nav() {
                 </a>
             </li>
             <li className="mx-2">
-                <a href="#resume">
+                <a href={resume}>
                 Resume
                 </a>
             </li>
