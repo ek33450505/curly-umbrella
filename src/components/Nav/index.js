@@ -2,7 +2,11 @@ import React from 'react';
 import resume from "../../assets/images/Edward_Kubiak_Resume.pdf";
 
 
-function Nav() {
+function Nav(props) {
+    const {
+      contactSelected,
+      setContactSelected,
+    } = props;
 
     return (
         <header>
@@ -18,10 +22,8 @@ function Nav() {
                 About me
                 </a>
             </li>
-            <li className="mx-2">
-                <a href="#contact">
-                Contact
-                </a>
+            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                <span onClick={() => setContactSelected(true)}>Contact</span>
             </li>
             <li className="mx-2">
                 <a href="#portfolio">
