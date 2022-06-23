@@ -1,40 +1,34 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import resume from "../../assets/images/Edward_Kubiak_Resume.pdf";
 
+function Nav({ selected, onSelect }) {
+    const navHandler = useCallback((evt) => {
+        const page = evt.currentTarget.dataset.page
+        onSelect(page)
+    }, [])
 
-function Nav(props) {
-    const {
-      contactSelected,
-      setContactSelected,
-    } = props;
 
     return (
         <header>
         <h2>
-            <a href="/">
-            <span>Edward Kubiak</span>
-            </a>
+            <div data-page="home" onClick={navHandler}>
+                <span>Edward Kubiak</span>
+            </div>
         </h2>
         <nav>
             <ul className="flex-row">
-            <li className="mx-2">
-                <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                About me
-                </a>
-            </li>
-            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                <span onClick={() => setContactSelected(true)}>Contact</span>
-            </li>
-            <li className="mx-2">
-                <a href="#portfolio">
-                Portfolio
-                </a>
-            </li>
-            <li className="mx-2">
-                <a href={resume}>
-                Resume
-                </a>
-            </li>
+                <li className={`mx-2 ${selected === 'about' && 'navActive'}`} onClick={navHandler}  data-page="about">
+                    <span data-testid="about">About me</span>
+                </li>
+                <li className={`mx-2 ${selected === 'contact' && 'navActive'}`}  onClick={navHandler} data-page="contact">
+                    <span>Contact</span>
+                </li>
+                <li className={`mx-2 ${selected === 'portfolio' ? 'navActive' : ''}`} onClick={navHandler}  data-page="portfolio">
+                    <span>Portfolio</span>
+                </li>
+                <li className="mx-2">
+                    <a href={resume} target="_blank">Resume</a>
+                </li>
             </ul>
         </nav>
         </header>

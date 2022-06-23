@@ -7,7 +7,7 @@ import budget from "../../assets/images/budgetTracker.png";
 import deepThoughts from "../../assets/images/deepThoughts.png";
 
 
-function Project() {
+function Portfolio() {
     return (
       <section>
         <a href="https://ek33450505.github.io/run-buddy/">
@@ -56,5 +56,5 @@ function Project() {
     );
   }
 
-export default Project;
+export default Portfolio;
 

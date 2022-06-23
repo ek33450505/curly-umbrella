@@ -1,30 +1,35 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-import About from './components/About';
 import Footer from './components/Footer';
+import About from './components/About';
 import ContactForm from './components/Contact';
-import Project from './components/Project';
+import Portfolio from './components/Portfolio';
+
+function router (page) {
+  switch (page) {
+      case "contact":
+        return <ContactForm />
+
+      case "portfolio":
+        return <Portfolio />
+
+      default:
+          return <About />
+  }
+}
 
 function App() {
-
-  const [contactSelected, setContactSelected] = useState(false);
+  const [selectedPage, setPage] = useState('home');
 
   return (
     <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <Nav seletected={selectedPage} onSelect={setPage} />
       <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-          </>
-        ) : (
-          <ContactForm></ContactForm>
-        )}
-        <Project></Project>
-        <Footer></Footer>
+        { <h1>{selectedPage}</h1> }
+
+        { router(selectedPage) }
+        
+        <Footer />
       </main>
     </div>
   );
