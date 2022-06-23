@@ -314,3 +314,13 @@ a {
   height: 80px;
   padding: 20px;
 }
+
+.thumbnail {
+  display: flexbox;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 400px;
+
+}

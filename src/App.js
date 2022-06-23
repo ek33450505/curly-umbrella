@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
 import ContactForm from './components/Contact';
+import Project from './components/Project';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         ) : (
           <ContactForm></ContactForm>
         )}
+        <Project></Project>
         <Footer></Footer>
       </main>
     </div>
