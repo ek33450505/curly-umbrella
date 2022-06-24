@@ -10,6 +10,7 @@ import deepThoughts from "../../assets/images/deepThoughts.png";
 function Portfolio() {
     return (
       <section>
+        <h1 data-testid="h1tag">Portfolio</h1>
         <a href="https://ek33450505.github.io/run-buddy/">
             <img
                 src={runBuddy}

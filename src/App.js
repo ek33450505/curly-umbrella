@@ -25,7 +25,7 @@ function App() {
     <div>
       <Nav seletected={selectedPage} onSelect={setPage} />
       <main>
-        { <h1>{selectedPage}</h1> }
+        {/* { <h1>{selectedPage}</h1> } */}
 
         { router(selectedPage) }
         
