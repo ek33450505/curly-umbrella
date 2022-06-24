@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/curly-umbrella/static/css/main.7fc31ab9.css",
-    "main.js": "/curly-umbrella/static/js/main.c03df682.js",
+    "main.js": "/curly-umbrella/static/js/main.d31e2ed1.js",
     "static/js/787.b04be26b.chunk.js": "/curly-umbrella/static/js/787.b04be26b.chunk.js",
     "static/media/runBuddy.png": "/curly-umbrella/static/media/runBuddy.aad6041739da1f06b288.png",
     "static/media/recipeSearch.png": "/curly-umbrella/static/media/recipeSearch.d26e4879477c4a11f25e.png",
@@ -13,11 +13,11 @@
     "static/media/Edward_Kubiak_Resume.pdf": "/curly-umbrella/static/media/Edward_Kubiak_Resume.7fefcc743b153b99871e.pdf",
     "index.html": "/curly-umbrella/index.html",
     "main.7fc31ab9.css.map": "/curly-umbrella/static/css/main.7fc31ab9.css.map",
-    "main.c03df682.js.map": "/curly-umbrella/static/js/main.c03df682.js.map",
+    "main.d31e2ed1.js.map": "/curly-umbrella/static/js/main.d31e2ed1.js.map",
     "787.b04be26b.chunk.js.map": "/curly-umbrella/static/js/787.b04be26b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fc31ab9.css",
-    "static/js/main.c03df682.js"
+    "static/js/main.d31e2ed1.js"
   ]
 }
