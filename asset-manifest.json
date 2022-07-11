@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/curly-umbrella/static/css/main.7fc31ab9.css",
-    "main.js": "/curly-umbrella/static/js/main.d31e2ed1.js",
+    "main.css": "/curly-umbrella/static/css/main.faf7c038.css",
+    "main.js": "/curly-umbrella/static/js/main.1a98e6b7.js",
     "static/js/787.b04be26b.chunk.js": "/curly-umbrella/static/js/787.b04be26b.chunk.js",
     "static/media/runBuddy.png": "/curly-umbrella/static/media/runBuddy.aad6041739da1f06b288.png",
     "static/media/recipeSearch.png": "/curly-umbrella/static/media/recipeSearch.d26e4879477c4a11f25e.png",
-    "static/media/cover-image.jpeg": "/curly-umbrella/static/media/cover-image.2ab37771200cf3e118d4.jpeg",
     "static/media/i++.png": "/curly-umbrella/static/media/i++.7d0191735171e5820abc.png",
     "static/media/weatherAPI.png": "/curly-umbrella/static/media/weatherAPI.c535a879712db6cd1baa.png",
     "static/media/budgetTracker.png": "/curly-umbrella/static/media/budgetTracker.c7d6398baba44a5400a4.png",
     "static/media/deepThoughts.png": "/curly-umbrella/static/media/deepThoughts.ceab8ae0fb353f07a56d.png",
     "static/media/Edward_Kubiak_Resume.pdf": "/curly-umbrella/static/media/Edward_Kubiak_Resume.7fefcc743b153b99871e.pdf",
     "index.html": "/curly-umbrella/index.html",
-    "main.7fc31ab9.css.map": "/curly-umbrella/static/css/main.7fc31ab9.css.map",
-    "main.d31e2ed1.js.map": "/curly-umbrella/static/js/main.d31e2ed1.js.map",
+    "main.faf7c038.css.map": "/curly-umbrella/static/css/main.faf7c038.css.map",
+    "main.1a98e6b7.js.map": "/curly-umbrella/static/js/main.1a98e6b7.js.map",
     "787.b04be26b.chunk.js.map": "/curly-umbrella/static/js/787.b04be26b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fc31ab9.css",
-    "static/js/main.d31e2ed1.js"
+    "static/css/main.faf7c038.css",
+    "static/js/main.1a98e6b7.js"
   ]
 }
