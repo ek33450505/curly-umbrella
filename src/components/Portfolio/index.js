@@ -7,6 +7,7 @@ import budget from "../../assets/images/budgetTracker.png";
 import deepThoughts from "../../assets/images/deepThoughts.png";
 
 
+// this may not be the best method for a react project - need to do further research into links
 function Portfolio() {
     return (
       <section>

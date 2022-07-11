@@ -16,6 +16,7 @@ function Nav({ selected, onSelect }) {
             </div>
         </h2>
         <nav>
+            {/* Eli helped with this section as well - this was a major issue */}
             <ul className="flex-row">
                 <li className={`mx-2 ${selected === 'about' && 'navActive'}`} onClick={navHandler}  data-page="about">
                     <span data-testid="about">About me</span>
@@ -27,6 +28,7 @@ function Nav({ selected, onSelect }) {
                     <span>Portfolio</span>
                 </li>
                 <li className="mx-2">
+                    {/* by setting the target as _blank this will cause a new tab to open in the browser apart from the main application */}
                     <a href={resume} target="_blank">Resume</a>
                 </li>
             </ul>

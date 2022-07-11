@@ -1,7 +1,7 @@
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
+	max-width: 100%;
   padding: 50px 30px;
 }
 :root {
@@ -39,9 +39,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background-color: var(--darker);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'system-ui', cursive;
 
 }
 
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'system-ui', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -83,7 +83,7 @@ h6 {
 
 p {
   font-size: 1.1rem;
-  margin-top: 0;
+  margin-top: 0;text-align: center;
 }
 
 a {
