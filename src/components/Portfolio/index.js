@@ -5,6 +5,7 @@ import recipe from "../../assets/images/recipeSearch.png";
 import date from "../../assets/images/i++.png";
 import budget from "../../assets/images/budgetTracker.png";
 import deepThoughts from "../../assets/images/deepThoughts.png";
+import rentIt from "../../assets/images/rentIt.png";
 
 
 // this may not be the best method for a react project - need to do further research into links
@@ -51,6 +52,13 @@ function Portfolio() {
             <img
                 src={deepThoughts}
                 alt="deepThoughts"
+                className="thumbnail"
+            />
+        </a>
+        <a href="https://app-rentit.herokuapp.com/">
+            <img
+                src={rentIt}
+                alt="rentIt"
                 className="thumbnail"
             />
         </a>
